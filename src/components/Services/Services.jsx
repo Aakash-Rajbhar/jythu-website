@@ -66,9 +66,9 @@ const Services = () => {
             <div className="card-inner absolute w-full h-full  ">
               <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
                 <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-                  <img src={card1img} alt="" />
+                  <img src={card2img} alt="" />
                 </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <h3 className="text-2xl font-bold py-4">Planning & Strategy</h3>
                 <p className="text-lg  px-6">
                   Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
                   sodales parturien lore arcu eros vel erat pede netus qu.
@@ -80,7 +80,63 @@ const Services = () => {
                 <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
                   <img src={card1img} alt="" />
                 </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <h3 className="text-2xl font-bold py-4">Planning & Strategy</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
+            <div className="card-inner absolute w-full h-full  ">
+              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card3img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Design & Development</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+
+              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card4img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Design & Development</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
+            <div className="card-inner absolute w-full h-full  ">
+              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card5img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Seo Audits & Strategy</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+
+              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card6img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Seo Audits & Strategy</h3>
                 <p className="text-lg  px-6">
                   Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
                   sodales parturien lore arcu eros vel erat pede netus qu.
@@ -96,7 +152,7 @@ const Services = () => {
                 <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
                   <img src={card1img} alt="" />
                 </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <h3 className="text-2xl font-bold py-4">Design & Development</h3>
                 <p className="text-lg  px-6">
                   Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
                   sodales parturien lore arcu eros vel erat pede netus qu.
@@ -108,7 +164,7 @@ const Services = () => {
                 <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
                   <img src={card1img} alt="" />
                 </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <h3 className="text-2xl font-bold py-4">Design & Development</h3>
                 <p className="text-lg  px-6">
                   Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
                   sodales parturien lore arcu eros vel erat pede netus qu.
@@ -124,7 +180,7 @@ const Services = () => {
                 <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
                   <img src={card1img} alt="" />
                 </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <h3 className="text-2xl font-bold py-4">Seo Audits & Strategy</h3>
                 <p className="text-lg  px-6">
                   Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
                   sodales parturien lore arcu eros vel erat pede netus qu.
@@ -136,63 +192,7 @@ const Services = () => {
                 <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
                   <img src={card1img} alt="" />
                 </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-                <p className="text-lg  px-6">
-                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-                  sodales parturien lore arcu eros vel erat pede netus qu.
-                </p>
-                <img src={cardArrow} alt="" />
-              </div>
-            </div>
-          </div>
-
-          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
-            <div className="card-inner absolute w-full h-full  ">
-              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
-                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-                  <img src={card1img} alt="" />
-                </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-                <p className="text-lg  px-6">
-                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-                  sodales parturien lore arcu eros vel erat pede netus qu.
-                </p>
-                <img src={cardArrow} alt="" />
-              </div>
-
-              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
-                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-                  <img src={card1img} alt="" />
-                </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-                <p className="text-lg  px-6">
-                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-                  sodales parturien lore arcu eros vel erat pede netus qu.
-                </p>
-                <img src={cardArrow} alt="" />
-              </div>
-            </div>
-          </div>
-
-          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
-            <div className="card-inner absolute w-full h-full  ">
-              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
-                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-                  <img src={card1img} alt="" />
-                </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-                <p className="text-lg  px-6">
-                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-                  sodales parturien lore arcu eros vel erat pede netus qu.
-                </p>
-                <img src={cardArrow} alt="" />
-              </div>
-
-              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
-                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-                  <img src={card1img} alt="" />
-                </div>
-                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <h3 className="text-2xl font-bold py-4">Seo Audits & Strategy</h3>
                 <p className="text-lg  px-6">
                   Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
                   sodales parturien lore arcu eros vel erat pede netus qu.
