@@ -15,7 +15,7 @@ const Services = () => {
       <div className="section-title text-center">
         <i
           data-aos="fade-right"
-          class="fa-solid fa-arrow-right text-green-300/80 pl-4"
+          className="fa-solid fa-arrow-right text-green-300/80 pl-4"
         ></i>
         <span data-aos="fade-right" className="px-2">
           OUR BEST SERVICES
@@ -32,78 +32,174 @@ const Services = () => {
         <div
           data-aos="fade-right"
           data-aos-offset={100}
-          className="services-container w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-10 py-16 px-3 md:px-6 lg:px-10"
+          className="services-container w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 py-16 px-4 sm:px-8 md:px-8 lg:px-10"
         >
-          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-lg shadow-xl px-4 py-12 relative ">
-            <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-              <img src={card1img} alt="" />
+          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
+            <div className="card-inner absolute w-full h-full  ">
+              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+
+              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
             </div>
-            <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-            <p className="text-lg  px-6">
-              Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-              sodales parturien lore arcu eros vel erat pede netus qu.
-            </p>
-            <img src={cardArrow} alt="" />
           </div>
 
-          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-lg shadow-xl px-4 py-12">
-            <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-              <img src={card2img} alt="" />
+          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
+            <div className="card-inner absolute w-full h-full  ">
+              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+
+              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
             </div>
-            <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-            <p className="text-lg text-[#4F7396] px-6">
-              Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-              sodales parturien lore arcu eros vel erat pede netus qu.
-            </p>
-            <img src={cardArrow} alt="" />
           </div>
 
-          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-lg shadow-xl px-4 py-12">
-            <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-              <img src={card3img} alt="" />
+          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
+            <div className="card-inner absolute w-full h-full  ">
+              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+
+              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
             </div>
-            <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-            <p className="text-lg text-[#4F7396] px-6">
-              Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-              sodales parturien lore arcu eros vel erat pede netus qu.
-            </p>
-            <img src={cardArrow} alt="" />
           </div>
 
-          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-lg shadow-xl px-4 py-12">
-            <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-              <img src={card4img} alt="" />
+          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
+            <div className="card-inner absolute w-full h-full  ">
+              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+
+              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
             </div>
-            <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-            <p className="text-lg text-[#4F7396] px-6">
-              Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-              sodales parturien lore arcu eros vel erat pede netus qu.
-            </p>
-            <img src={cardArrow} alt="" />
           </div>
 
-          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-lg shadow-xl px-4 py-12">
-            <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-              <img src={card5img} alt="" />
+          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
+            <div className="card-inner absolute w-full h-full  ">
+              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+
+              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
             </div>
-            <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-            <p className="text-lg text-[#4F7396] px-6">
-              Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-              sodales parturien lore arcu eros vel erat pede netus qu.
-            </p>
-            <img src={cardArrow} alt="" />
           </div>
 
-          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-lg shadow-xl px-4 py-12">
-            <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
-              <img src={card6img} alt="" />
+          <div className="service-card w-full h-full text-center flex flex-col items-center justify-center gap-4 rounded-3xl shadow-xl px-4 py-12 relative   ">
+            <div className="card-inner absolute w-full h-full  ">
+              <div className="card-front absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl ">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
+
+              <div className="card-back  absolute w-full h-full flex flex-col items-center justify-center gap-4 rounded-3xl">
+                <div className="service-icon w-20 h-20 rounded-full flex items-center justify-center py-4">
+                  <img src={card1img} alt="" />
+                </div>
+                <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
+                <p className="text-lg  px-6">
+                  Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
+                  sodales parturien lore arcu eros vel erat pede netus qu.
+                </p>
+                <img src={cardArrow} alt="" />
+              </div>
             </div>
-            <h3 className="text-2xl font-bold py-4">Strategy & Planning</h3>
-            <p className="text-lg text-[#4F7396] px-6">
-              Lorem ipsum dolor sit amet bibendum elit sit finibus. Maximus
-              sodales parturien lore arcu eros vel erat pede netus qu.
-            </p>
-            <img src={cardArrow} alt="" />
           </div>
         </div>
 

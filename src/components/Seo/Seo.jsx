@@ -7,9 +7,9 @@ import dial from "../../assets/dial-icon.svg";
 const Seo = () => {
   return (
     <section id="seo" className="w-full px-4 lg:px-12 py-8 md:py-8 lg:py-16">
-      <div className="container w-full flex flex-col lg:flex-row lg:gap-16  py-8 px-6 lg:px-8 mt-10">
-        <div className="seo-left w-full lg:w-[50%] flex justify-center">
-          <img src={leftImg} alt="" />
+      <div className="container w-full flex flex-col lg:flex-row items-center justify-center lg:gap-16  py-8 px-6 lg:px-8 mt-10">
+        <div className="seo-left w-full lg:w-[50%] flex justify-center items-center">
+          <img src={leftImg} alt="" className="w-full" />
         </div>
         <div className="seo-right w-full lg:w-[50%] py-6 lg:py-0">
           <div className="section-title ">
